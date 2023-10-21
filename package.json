@@ -209,7 +209,7 @@
 		"@wordpress/env": "1.6.0",
 		"@wordpress/eslint-plugin": "4.0.0",
 		"@wordpress/server-side-render": "1.8.6",
-		"babel-eslint": "10.0.2",
+		"@babel/eslint-parser": "7.11.0",
 		"chai": "4.2.0",
 		"chalk": "4.1.0",
 		"commander": "6.2.0",
