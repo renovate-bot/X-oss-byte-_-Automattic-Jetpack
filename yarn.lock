@@ -79,7 +79,15 @@
     schema-utils "^1.0.0"
     webpack-sources "^1.1.0"
 
-"@automattic/popup-monitor@1.0.0", "@automattic/popup-monitor@^1.0.0":
+"@automattic/popup-monitor@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@automattic/popup-monitor/-/popup-monitor-1.0.2.tgz#9d873943a888e5939997b32f0c67fb62207a7c1c"
+  integrity sha512-Y4LMfdkV8iDmezu/7Ov/18JaFJ0QAy5vCntiP0S5AhLt4R/kjLtBt4ifNXNbdKTthGxlL17+LJ1bNtHBVCzPwg==
+  dependencies:
+    events "^3.3.0"
+    lodash "^4.17.21"
+
+"@automattic/popup-monitor@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@automattic/popup-monitor/-/popup-monitor-1.0.0.tgz#57809015748e2a66d115666b887bd25af645635a"
   integrity sha512-hZzcOOfNB150rq/mTEWjDHM16Kuuia8OlAAHosylpacPDYJnh2zjPg910fpApuUrhRnOSaiZ+sv3Ydkt0LdTZg==
@@ -7720,6 +7728,11 @@ events@^3.0.0:
   resolved "https://registry.yarnpkg.com/events/-/events-3.0.0.tgz#9a0a0dfaf62893d92b875b8f2698ca4114973e88"
   integrity sha512-Dc381HFWJzEOhQ+d8pkNon++bk9h6cdAoAj4iE6Q4y6xgTzySWXlKn05/TVNpjnfRqi/X0EpJEJohPjNI3zpVA==
 
+events@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
+  integrity sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==
+
 evp_bytestokey@^1.0.0, evp_bytestokey@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/evp_bytestokey/-/evp_bytestokey-1.0.3.tgz#7fcbdb198dc71959432efe13842684e0525acb02"
@@ -11838,7 +11851,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@4.17.20, lodash@^4.0.0, lodash@^4.1.1, lodash@^4.14.2, lodash@^4.15.0, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.4, lodash@^4.3.0, lodash@~4.17.10:
+lodash@4.17.20, lodash@^4.0.0, lodash@^4.1.1, lodash@^4.14.2, lodash@^4.15.0, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.4, lodash@^4.3.0, lodash@~4.17.10:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
